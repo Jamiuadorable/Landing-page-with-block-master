@@ -268,7 +268,8 @@ body{
         width: 100%;
     }
     .info{
-        width: 40%;
+        width: 50%;
+        float: left;
     }
     .info h2{
         padding-top: 20px;
@@ -303,7 +304,13 @@ body{
         left:5%;
     }
     .mockups{
-        width: 60%;
-        margin-left: 150px;
+        width: 50%;
+        float: right;
+    }
+    .mockups img{
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 20px;
     }
 }
